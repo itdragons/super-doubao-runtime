@@ -1,0 +1,12 @@
+# 服务器配置
+server:
+  mode: "release"  # debug/release/test
+  read_timeout: 5
+  write_timeout: 10
+
+# 日志配置
+log:
+  level: "info"  # debug/info/warn/error
+  filename: "app.log"
+  max_size: 100  # MB
+  max_age: 7     # 天
